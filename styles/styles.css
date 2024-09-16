@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(215, 41, 215), limegreen);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.conteudo-input {
+    width: 450px;
+    height: 400px;
+    margin: 30px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo-input div {
+    border: 1px solid #000;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 0 10px;
+}
+
+.conteudo-input input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 2%;
+
+   
+}
+.conteudo-input label{
+
+}
+.button-input {
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    opacity: 0.8;
+    padding: 10px;
+    background-color: darkcyan;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 90px;
+
+}
+
+.button-input:hover {
+    background-color: crimson;
+    color: white;
+
+}
